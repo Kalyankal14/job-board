@@ -1,13 +1,14 @@
 import React from 'react'
-import Logos from './Logos';
+// import Logos from './Logos';
 import JobDetailsCard from './JobDetailsCard';
 
 const JobDetails = ({jobs = []}) => {
+    console.log(jobs)
     return (
         <div className='bg-green-300 flex-[7]'>
             <h1>React Native Developer</h1>
              
-             <img src=""/>
+             {/* <img src=""/> */}
             <h6>Qloron Pvt Ltd.</h6>
             <h6>Hyderabd, Telangana</h6>
 
@@ -15,7 +16,7 @@ const JobDetails = ({jobs = []}) => {
                 React Native Developer
             </header>
             <JobDetailsCard />
-            <Logos />
+            {/* <Logos /> */}
         </div>
 
     );
